@@ -1,0 +1,54 @@
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Secilen monitör: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+Hata: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+Traceback (most recent call last):
+  File "C:\Users\cenka\OneDrive\Belgeler\TapoL530E\tapo_screen_sync.py", line 59, in main
+    await device.set_light_state({"hue": hue, "saturation": saturation, "brightness": 100})
+          ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'builtins.ColorLightHandler' object has no attribute 'set_light_state'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cenka\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cenka\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\cenka\OneDrive\Belgeler\TapoL530E\tapo_screen_sync.py", line 64, in main
+    await asyncio.sleep(5)
+  File "C:\Users\cenka\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cenka\OneDrive\Belgeler\TapoL530E\tapo_screen_sync.py", line 67, in <module>
+    asyncio.run(main())
+  File "C:\Users\cenka\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\cenka\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C
