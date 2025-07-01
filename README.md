@@ -72,5 +72,5 @@ MIT License — see [LICENSE](LICENSE)
 
 ## Credits
 - [mihai-dinculescu/tapo](https://github.com/mihai-dinculescu/tapo) for the Tapo API library
-- Project by Orhan Cenk Akçadoğan
+- Project by Orhan Cenk Akcadoğan
   
